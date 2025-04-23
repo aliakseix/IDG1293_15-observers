@@ -1,0 +1,46 @@
+body{
+	background-color: antiquewhite;
+	color: gray;
+	font-size: 32px;
+}
+
+section{
+	min-height: 90vh;
+	background-color: aliceblue;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	gap: 1vmin;
+	margin: 5vw;
+	padding: 1vmin;
+	border: 1px solid gray;
+	transition: all 2s;
+}
+
+.hidden-opacity{
+	opacity: 0;
+}
+
+.hidden-translate{
+	transform: translateX(-100%);
+}
+
+.hidden-color{
+	filter: brightness(0);
+}
+
+.hidden-blur{
+	filter: blur(15px);
+}
+
+.hidden-font{
+	font-size: 0px;
+}
+
+.hidden-all{
+	opacity: 0;
+	filter: blur(15px);
+	transform: translateX(-100%);
+}

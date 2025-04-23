@@ -1,0 +1,26 @@
+html, body{
+	font-size: 32px;
+}
+
+img{
+	width: 25vw;
+	height: auto;
+}
+
+.container{
+	display: grid;
+	gap: 3vmin;
+	grid-template-columns: 1fr 1fr;
+}
+
+.item{
+	width: 45vw;
+	background-color: aliceblue;
+	border: 1px solid gray;
+	border-radius: 0.25rem;
+	padding: 1vmin;
+}
+
+footer{
+	text-align: center;
+}

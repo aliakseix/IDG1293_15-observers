@@ -1,0 +1,15 @@
+.filler{
+	height: 100vh;
+	background-color:thistle;
+	text-align: center;
+}
+
+html, body{
+	background-color: antiquewhite;
+	font-size: 32px;
+}
+
+.target{
+	width: 20vw;
+	background-color: lightskyblue;
+}
